@@ -40,7 +40,7 @@
     ],
     "require": {
         "php": "^7.4.0",
-        "felixkiss/uniquewith-validator": "^3.4.0",
+        "felixkiss/uniquewith-validator": "dev-patch-1",
         "illuminate/auth": "^7.0.0|^8.0.0",
         "illuminate/bus": "^7.0.0|^8.0.0",
         "illuminate/contracts": "^7.0.0|^8.0.0",
@@ -49,7 +49,7 @@
         "illuminate/support": "^7.0.0|^8.0.0",
         "illuminate/validation": "^7.0.0|^8.0.0",
         "spatie/laravel-schemaless-attributes": "^1.7.0",
-        "watson/validating": "^5.0.0"
+         "watson/validating": "^5.0.0|^6.0.0"
     },
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.27.0",
@@ -83,6 +83,12 @@
             ]
         }
     },
+    "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/lloricode/uniquewith-validator"
+            }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
